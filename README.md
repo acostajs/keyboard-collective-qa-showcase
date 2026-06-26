@@ -6,11 +6,11 @@ The entire project lifecycle, dependency locking, and virtual environments are m
 
 ---
 
-## 🧪 Test Automation Architecture
+##  Test Automation Architecture
 
 The core value of this repository lies within its rigorous quality assurance suite. All test executions, fixtures, and execution scripts have been modernized and migrated to a unified architecture.
 
-### [👉 View Full Test Suite Documentation & Execution Guide (tests/docs/README.md)](https://www.google.com/search?q=tests/docs/README.md)
+### [ --> View Full Test Suite Documentation & Execution Guide (tests/docs/README.md)](https://github.com/acostajs/vanier-custom-keyboard-collective/blob/main/tests/docs/README.md)
 
 ### Test Suite Blueprint
 
@@ -22,7 +22,7 @@ The core value of this repository lies within its rigorous quality assurance sui
 
 ---
 
-## 🛠️ Quick Start (Local Setup)
+##  Quick Start (Local Setup)
 
 All instructions utilize `uv` to ensure instant environment initialization.
 
@@ -69,7 +69,7 @@ uv run manage.py runserver
 
 ---
 
-## 🚀 Key QA Features for Recruiters
+##  Key QA Features for Recruiters
 
 * **No `Any` Type Hinting:** Strict type safety implemented throughout the testing workspace to guarantee contract and payload reliability.
 * **DRY Fixture Inheritance:** Centralized setup using a unified global `conftest.py` architecture at the root of the test directory.
