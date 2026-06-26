@@ -10,8 +10,10 @@ jobs:
         run: uv run ruff format --check
       - name: Lint Code
         run: uv run ruff check
+      - name: Install Playwright Browsers
+        run: uv run playwright install --with-deps chromium
       - name: Run Tests
-        run: uv run manage.py test
+        run: uv run pytest -o addopts="-v"
         env:
           STRIPE_SECRET_KEY: ${{ secrets.STRIPE_SECRET_KEY }}
           STRIPE_WEBHOOK_SECRET: ${{ secrets.STRIPE_WEBHOOK_SECRET }}
